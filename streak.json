@@ -1,8 +1,9 @@
 {
-  "total_projects": 1,
+  "total_projects": 2,
   "current_streak": 1,
   "last_date": "2026-02-15",
   "languages_used": {
-    "javascript": 1
+    "javascript": 1,
+    "c": 1
   }
 }

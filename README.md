@@ -8,16 +8,18 @@
 | Metric | Value |
 |--------|-------|
 | 🔥 Current Streak | **1 days** |
-| 📁 Total Projects | **1** |
+| 📁 Total Projects | **2** |
 | 📅 Last Updated | **2026-02-15** |
 
 ## 🗂️ Languages Used
 
 | 🟨 Javascript | ██ **1** |
+| ⚙️ C | ██ **1** |
 
 ## 📂 Recent Projects
 
 - [`2026-02-15-javascript-mini-database`](./projects/2026-02-15-javascript-mini-database/)
+- [`2026-02-15-c-stack-array`](./projects/2026-02-15-c-stack-array/)
 
 ## ⚙️ How It Works
 
