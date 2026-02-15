@@ -1,0 +1,72 @@
+name: 🚀 Daily Auto Project Generator
+
+on:
+  schedule:
+    # Runs daily at 3:30 AM UTC = 9:00 AM IST
+    - cron: '30 3 * * *'
+  
+  # Allow manual trigger for testing
+  workflow_dispatch:
+    inputs:
+      language:
+        description: 'Force a specific language (leave empty for random)'
+        required: false
+        default: ''
+      no_ai:
+        description: 'Skip AI generation (use templates only)'
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  generate-daily-project:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 📦 Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 🤖 Generate daily project
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          ARGS=""
+          if [ "${{ github.event.inputs.no_ai }}" = "true" ]; then
+            ARGS="$ARGS --no-ai"
+          fi
+          if [ -n "${{ github.event.inputs.language }}" ]; then
+            ARGS="$ARGS --language ${{ github.event.inputs.language }}"
+          fi
+          python generate_project.py --dry-run $ARGS
+
+      - name: 📝 Commit and push
+        run: |
+          git config user.name "Jay Singh"
+          git config user.email "jayrakeshsingh8796@gmail.com"
+          git add -A
+          
+          TODAY=$(date +%Y-%m-%d)
+          COMMIT_MSG="🚀 Daily Project: auto-generated on ${TODAY}"
+          
+          git diff --cached --quiet && echo "Nothing to commit" && exit 0
+          
+          git commit -m "${COMMIT_MSG}"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,81 @@
+{
+  "github_username": "iamjaysingh",
+  "repo_name": "daily-auto-projects",
+  "languages": ["python", "javascript", "java", "c", "go"],
+  "project_types": {
+    "python": [
+      "cli-calculator",
+      "password-generator",
+      "todo-app",
+      "file-organizer",
+      "sorting-visualizer",
+      "number-guessing-game",
+      "contact-book",
+      "quiz-app",
+      "expense-tracker",
+      "countdown-timer",
+      "unit-converter",
+      "rock-paper-scissors",
+      "word-frequency-counter",
+      "matrix-calculator",
+      "text-encryptor"
+    ],
+    "javascript": [
+      "rest-api-server",
+      "markdown-parser",
+      "url-shortener",
+      "quiz-game",
+      "color-palette-generator",
+      "json-formatter",
+      "task-scheduler",
+      "event-emitter",
+      "mini-database",
+      "string-utilities",
+      "rate-limiter",
+      "cache-system",
+      "csv-parser",
+      "logger-utility",
+      "validation-library"
+    ],
+    "java": [
+      "stack-implementation",
+      "binary-search-tree",
+      "student-grade-system",
+      "linked-list",
+      "queue-implementation",
+      "inventory-system",
+      "atm-simulator",
+      "tic-tac-toe",
+      "bank-account",
+      "shape-calculator"
+    ],
+    "c": [
+      "matrix-operations",
+      "linked-list",
+      "number-converter",
+      "file-reader",
+      "sorting-algorithms",
+      "string-manipulation",
+      "stack-array",
+      "binary-search",
+      "temperature-converter",
+      "pattern-printer"
+    ],
+    "go": [
+      "http-server",
+      "file-watcher",
+      "word-counter",
+      "cli-tool",
+      "tcp-echo-server",
+      "json-api",
+      "concurrent-downloader",
+      "key-value-store",
+      "log-parser",
+      "port-scanner"
+    ]
+  },
+  "use_ai": true,
+  "ai_provider": "gemini",
+  "commit_message_prefix": "🚀 Daily Project",
+  "readme_enabled": true
+}
