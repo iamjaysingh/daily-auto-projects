@@ -25,4 +25,4 @@
 
 ---
 
-*Powered by [Daily Project Generator](https://github.com/iamjaysingh/daily-auto-projects)* ✨
+*Powered by [Making Projects Daily](https://github.com/iamjaysingh/daily-auto-projects)* ✨
