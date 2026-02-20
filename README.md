@@ -7,18 +7,19 @@
 
 | Metric | Value |
 |--------|-------|
-| 🔥 Current Streak | **5 days** |
-| 📁 Total Projects | **7** |
-| 📅 Last Updated | **2026-02-19** |
+| 🔥 Current Streak | **6 days** |
+| 📁 Total Projects | **8** |
+| 📅 Last Updated | **2026-02-20** |
 
 ## 🗂️ Languages Used
 
-| ☕ Java | ████████ **4** |
+| ☕ Java | ██████████ **5** |
 | ⚙️ C | ████ **2** |
 | 🟨 Javascript | ██ **1** |
 
 ## 📂 Recent Projects
 
+- [`2026-02-20-java-binary-search-tree`](./projects/2026-02-20-java-binary-search-tree/)
 - [`2026-02-19-java-binary-search-tree`](./projects/2026-02-19-java-binary-search-tree/)
 - [`2026-02-18-java-binary-search-tree`](./projects/2026-02-18-java-binary-search-tree/)
 - [`2026-02-17-java-binary-search-tree`](./projects/2026-02-17-java-binary-search-tree/)
