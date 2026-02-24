@@ -7,18 +7,19 @@
 
 | Metric | Value |
 |--------|-------|
-| 🔥 Current Streak | **9 days** |
-| 📁 Total Projects | **11** |
-| 📅 Last Updated | **2026-02-23** |
+| 🔥 Current Streak | **10 days** |
+| 📁 Total Projects | **12** |
+| 📅 Last Updated | **2026-02-24** |
 
 ## 🗂️ Languages Used
 
-| ☕ Java | ████████████████ **8** |
+| ☕ Java | ██████████████████ **9** |
 | ⚙️ C | ████ **2** |
 | 🟨 Javascript | ██ **1** |
 
 ## 📂 Recent Projects
 
+- [`2026-02-24-java-binary-search-tree`](./projects/2026-02-24-java-binary-search-tree/)
 - [`2026-02-23-java-binary-search-tree`](./projects/2026-02-23-java-binary-search-tree/)
 - [`2026-02-22-java-binary-search-tree`](./projects/2026-02-22-java-binary-search-tree/)
 - [`2026-02-21-java-binary-search-tree`](./projects/2026-02-21-java-binary-search-tree/)
@@ -28,7 +29,6 @@
 - [`2026-02-17-java-binary-search-tree`](./projects/2026-02-17-java-binary-search-tree/)
 - [`2026-02-16-java-binary-search-tree`](./projects/2026-02-16-java-binary-search-tree/)
 - [`2026-02-16-c-binary-search`](./projects/2026-02-16-c-binary-search/)
-- [`2026-02-15-javascript-mini-database`](./projects/2026-02-15-javascript-mini-database/)
 
 ## ⚙️ How It Works
 
