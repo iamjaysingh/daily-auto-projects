@@ -7,18 +7,19 @@
 
 | Metric | Value |
 |--------|-------|
-| 🔥 Current Streak | **15 days** |
-| 📁 Total Projects | **17** |
-| 📅 Last Updated | **2026-03-01** |
+| 🔥 Current Streak | **16 days** |
+| 📁 Total Projects | **18** |
+| 📅 Last Updated | **2026-03-02** |
 
 ## 🗂️ Languages Used
 
-| ☕ Java | ████████████████████████████ **14** |
+| ☕ Java | ██████████████████████████████ **15** |
 | ⚙️ C | ████ **2** |
 | 🟨 Javascript | ██ **1** |
 
 ## 📂 Recent Projects
 
+- [`2026-03-02-java-binary-search-tree`](./projects/2026-03-02-java-binary-search-tree/)
 - [`2026-03-01-java-binary-search-tree`](./projects/2026-03-01-java-binary-search-tree/)
 - [`2026-02-28-java-binary-search-tree`](./projects/2026-02-28-java-binary-search-tree/)
 - [`2026-02-27-java-binary-search-tree`](./projects/2026-02-27-java-binary-search-tree/)
@@ -28,7 +29,6 @@
 - [`2026-02-23-java-binary-search-tree`](./projects/2026-02-23-java-binary-search-tree/)
 - [`2026-02-22-java-binary-search-tree`](./projects/2026-02-22-java-binary-search-tree/)
 - [`2026-02-21-java-binary-search-tree`](./projects/2026-02-21-java-binary-search-tree/)
-- [`2026-02-20-java-binary-search-tree`](./projects/2026-02-20-java-binary-search-tree/)
 
 ## ⚙️ How It Works
 
